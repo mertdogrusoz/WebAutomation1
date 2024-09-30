@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebOtomasyon</id>
+    <version>1.0.0</version>
+    <authors>WebOtomasyon</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="EPPlus" version="7.3.2" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="4.25.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="129.0.6668.7000" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\yigit\source\repos\WebOtomasyon\WebOtomasyon\bin\Debug\net6.0\WebOtomasyon.runtimeconfig.json" target="lib\net6.0\WebOtomasyon.runtimeconfig.json" />
+    <file src="C:\Users\yigit\source\repos\WebOtomasyon\WebOtomasyon\bin\Debug\net6.0\WebOtomasyon.dll" target="lib\net6.0\WebOtomasyon.dll" />
+  </files>
+</package>
